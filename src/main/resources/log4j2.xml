@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+<!--    <Loggers>-->
+<!--        <Root level="warn">-->
+<!--            <AppenderRef ref="Console"/>-->
+<!--        </Root>-->
+<!--&lt;!&ndash;        <Logger name="org.hibernate" level="warn">&ndash;&gt;-->
+<!--&lt;!&ndash;            <AppenderRef ref="Console"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        </Logger>&ndash;&gt;-->
+<!--    </Loggers>-->
+</Configuration>
